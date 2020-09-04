@@ -10,8 +10,8 @@ import os #(発展で必要)
 #縦480,横640,15FPS
 #画像を表示するwindowの名前はcapture
 
-width=640
-height=480
+width=640/4
+height=480/4
 cap = cv2.VideoCapture(0)
 cap.set(cv2.CAP_PROP_FPS,15)
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, width) 
