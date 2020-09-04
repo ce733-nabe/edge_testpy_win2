@@ -62,7 +62,7 @@ model.compile(optimizer='adam',
               metrics=['accuracy'])
 
 batch_size=8
-epochs=100
+epochs=10000
 history=model.fit(x_train,y_train,
                   batch_size=batch_size,
                   epochs=epochs,
